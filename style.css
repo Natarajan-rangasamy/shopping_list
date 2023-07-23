@@ -45,7 +45,7 @@ ul{
 li{
    
     margin-left: 30%;
-    margin-top: 10px;
+    margin-top: 13px;
     cursor: pointer;
 }
 button{
@@ -60,4 +60,12 @@ button{
  .done{
     text-decoration: line-through;
     font-style: italic;
+ }
+
+ .note{
+    margin: 30%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 800;
  }
