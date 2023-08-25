@@ -1,71 +1,87 @@
-h3{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 2em;
-    letter-spacing: 5px;
-    text-decoration: underline;
-    filter: drop-shadow(0px 0px 5px rgb(47, 150, 240));
+h3 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  filter: drop-shadow(0px 0px 5px rgb(47, 150, 240));
 }
 
-.js-input{
+.js-input {
+  padding: 8px;
+  width: 250px;
+  margin-left: 30%;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin-right: 5px;
+  outline: none;
+  transition: 0.5s linear;
+  font-weight: bold;
+}
+.js-input:hover {
+  cursor: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.add {
+  padding: 8px;
+  border-radius: 18px;
+  width: 65px;
+  outline: none;
+  color: white;
+  background-color: rgba(64, 133, 236, 0.8);
+  outline: none;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.add:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+ul {
+  margin-top: 30px;
+}
+li {
+  margin-left: 30%;
+  margin-top: 13px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+button {
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color: red;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.note {
+  margin: 30%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 550px) {
+  .js-input {
     padding: 8px;
     width: 250px;
-    margin-left: 30% ;
+    margin-left: 10px;
     border-radius: 6px;
     border: 1px solid grey;
     margin-right: 5px;
     outline: none;
-    transition: .5s linear;
+    transition: 0.5s linear;
     font-weight: bold;
+  }
+  button{
+    margin-left: 8px;
+  }
 }
-.js-input:hover{
-    cursor:auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.add{
-    padding: 8px;
-    border-radius: 18px;
-    width: 65px;
-    outline: none;
-    color: white;
-    background-color: rgba(64, 133, 236, 0.8);
-    outline: none;
-    border: none;
-    transition: .5s ease-in-out;
-}
-.add:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-ul{
-    margin-top: 30px;
-}
-li{
-   
-    margin-left: 30%;
-    margin-top: 13px;
-    cursor: pointer;
-}
-button{
-    border-radius:5px ;
-    outline:none;
-    color: white;
-    background-color: red;
-    margin-left: 25px;
-    cursor: pointer;
-
-}
- .done{
-    text-decoration: line-through;
-    font-style: italic;
- }
-
- .note{
-    margin: 30%;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-style: italic;
-    font-weight: 800;
- }
